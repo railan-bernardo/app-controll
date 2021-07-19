@@ -1,0 +1,34 @@
+{
+  "name": "railan-bernardo/app-controll",
+  "description": "Contas a Pagar e Receber AppControl",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Railan Bernardo",
+      "email": "railabernardo2016@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "^7.1",
+    "phpmailer/phpmailer": "^6.5",
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/uploader": "^1.0",
+    "coffeecode/cropper": "^1.0",
+    "coffeecode/optimizer": "^1.0",
+    "coffeecode/router": "^1.0"
+  }
+}
